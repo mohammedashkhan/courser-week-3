@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<meta http-equiv="X-UA-compatible" container="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Food,LLC</title>
+	<link rel="stylesheet" href="CSS/bootstrap.min.CSS">
+	<link rel="stylesheet" href="CSS/styles.CSS">
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type="text/css" >
+	<link href="http://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+	<style>
+	
+		body {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #F67280;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ .text-center {
+    text-align: center;
+}
+h1 {
+    color: white;
+    text-transform: uppercase;
+}
+.h1, h1 {
+    font-size: 36px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #355C7D;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #FFFFFF;
+}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.navbar-collapse.in {
+    overflow-y: visible;
+}
+.navbar-collapse.collapse {
+    display: block ;
+    height: auto ;
+    padding-bottom: 0;
+    overflow: visible ;
+}
+.navbar-collapse.in {
+    overflow-y: auto;
+}
+.collapse.in {
+    display: block;
+}
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+}
+.collapse {
+    display: none;
+}
+
+
+#nav-list {
+    margin-top: 10px;
+}
+.visible-lg, .visible-md, .visible-sm, .visible-xs {
+    display: none ;
+}
+.navbar-right {
+    float: right ;
+    margin-right: -15px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style
+    : none;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.navbar-nav > li {
+    float: left;
+}
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+#nav-list a {
+    color: #355C7D;
+    text-align: center;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 10px;
+}
+
+#nav-list a {
+    color: #355C7D;
+    text-align: center;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+
+#nav-list a {
+    color: #355C7D;
+    text-align: center;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    backgroun
+    d-color: transparent;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#main-paragraph1 {
+    background-color: #C06C84;
+    width: 60%;
+    margin-top: 30px;
+}
+.container {
+    width: 1170px;
+}
+.container {
+    width: 970px;
+}
+.container {
+    width: 750px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    padding: 10px;
+}
+p {
+    margin: 0 0 10px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+}
+
+#main-paragraph2 {
+    background-color: #800000;
+    width: 60%;
+    margin-top: 30px;
+}
+.container {
+    width: 1170px;
+}
+.container {
+    width: 970px;
+}
+.container {
+    width: 750px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-size: 1.5em;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+.col-xs-13 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+#main-paragraph3 {
+    background-color: #999999;
+    width: 60%;
+    margin-top: 30px;
+}
+.container {
+    width: 1170px;
+}
+.container {
+    width: 970px;
+}
+.container {
+    width: 750px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-size: 1.5em;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+	</style>
+ </head>
+<header>
+	<nav id="header-nav" class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+					<h1>Food,LLC</h1>
+				</div>
+				<button  class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+					<span class="sr-only">Toggle navigation</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</button>
+
+</div>
+<div id="collapsable-nav" class="collapse navbar-collapse">
+	
+				<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs" >
+					
+					<li>
+						<a href="#main-paragraph1">Chicken</a>
+					</li>
+				<li>
+						<a href="#main-paragraph2">Beef</a>
+					</li>
+					
+					<li>
+						<a href="#main-paragraph3">Sushi</a>
+					</li>
+				</ul>
+					
+					</div>			
+</div>
+	</nav>
+</header>
+<h1 class="text-center" >Our Menu</h1>
+<div class="row">
+	<div id="main-paragraph1" class="container">
+	<div class="col-xs-13">
+		<h2 class="text-center">Chicken</h2>
+		<p>The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. Humans commonly keep chickens as a source of food (consuming both their meat and eggs.<br>
+			<br>A male chicken is called a rooster or a cock (short for cockerel). A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs which can hatch into chicks. When raising chickens, a farmer needs to build a chicken coop (like a little house) for the chickens to roost (sleep) in.The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011. Humans commonly keep chickens as a source of food (consuming both their meat and eggs) ...</p>
+	</div>
+</div>
+    <div id="main-paragraph2" class="container">
+    	<div class="col-xs-13">
+    		<h2 class="text-center" >Beef</h2>
+    		<p>Cuts have bright red flesh Fat is firm with a white, creamy white, or yellowish color Veal: meat from very young claves Light pink color with very little fat Lamb: Meat from young sheep Cuts are a bright pink-red color white, brittle fat Pork: meat from hogs Meat is greyish-pink White, soft fat.Cuts have bright red flesh Fat is firm with a white, creamy white, or yellowish color Veal: meat from very young claves Light pink color with very little fat Lamb: Meat from young sheep Cuts are a bright pink-red color white, brittle fat Pork: meat from hogs Meat is greyish-pink White, soft fatCuts have bright red flesh Fat is firm with a white, creamy white, or yellowish color Veal: meat from very young claves Light pink color with very little fat Lamb: Meat from young sheep Cuts are a bright pink-red color white, brittle fat Pork: meat from hogs Meat is greyish-pink White, soft fat<br>
+    			<br>The country is embroiled in a controversy regarding a ban on slaughter of cows and the sale and consumption of beef. In retrospect, this controversy has existed for many decades now. The reason is apparently simple. Hindus, who form the majority of the populace, consider the cow sacred. The cow, according to Hindu religious scriptures, is the embodiment of the Feminine Divine and motherhood. Slaughter of cows brings the greatest misfortune, Hindu religious leaders claim. An average Hindu, though far from being vegetarian, will abstain from consumption of beef. On the other hand, the Muslim and Christian minorities consume beef extensively. Since India gained independence from the British, there has been a demand for banning cow slaughter in the country and on consumption of beef. Successive governments have resisted any attempt to impose such a ban at a central level due to the secular nature of the country and its constitution. Some states, however, have succeeded in implementing local legislation banning cow slaughter. While this does not automatically translate into a beef consumption ban
+</p>
+</div>
+    </div>
+
+    <div id="main-paragraph3" class="container">
+    	<div class="col-xs-13">
+    		<h2 class="text-center">Sushi</h2>
+    		<p>Sushi (すし, 寿司, 鮨) is the Japanese preparation and serving of specially prepared vinegared rice (鮨飯 sushi-meshi) combined with varied ingredients (ネタ neta) such as chiefly seafood (often uncooked), vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the key ingredient is sushi rice, also referred to as shari (しゃり), or sumeshi (酢飯).
+
+Sushi can be prepared with either brown or white rice. It is often prepared with raw seafood, but some varieties of sushi use cooked ingredients, and many others are vegetarian. Sushi is often served with pickled ginger, wasabi, and soy sauce. Daikon radish is popular as a garnish
+Sushi is often confused with sashimi, a related Japanese dish consisting of thinly sliced raw fish or occasionally meat, and an optional serving of rice.<br>
+<br>is the Japanese preparation and serving of specially prepared vinegared rice (鮨飯, sushi-meshi) combined with varied ingredients (ネタ, neta) such as chiefly seafood (often uncooked), vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the key ingredient is ...</p>
+    	</div>
+    </div>
+    <script type="js/jquery-2.1.4.min.js"></script>
+    <script type="js/bootstrap.min.js"></script>
+    <script type="js/script.js"></script>
+</body>
+</html>
+	
